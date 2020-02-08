@@ -440,6 +440,7 @@ template {
 body {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
+  font-size: 16px;
 }
 
 a {
@@ -527,9 +528,31 @@ a {
 
 .slider-dots {
   position: absolute;
-  right: 80px;
-  bottom: 40px;
+  right: 50px;
+  bottom: 36px;
   max-width: 920px;
   width: 100%;
   color: #fff;
+}
+.slider-dots .slick-current .dots-box {
+  border-top: 4px solid #4AF6CD;
+}
+
+.dots-box {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  height: 28px;
+  align-items: center;
+  border-top: 4px solid #fff;
+  padding-top: 6px;
+}
+.dots-box__number {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 34px;
+}
+.dots-box__name {
+  font-weight: 300;
+  line-height: 19px;
 }
