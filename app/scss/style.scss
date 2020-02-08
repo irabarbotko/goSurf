@@ -2,18 +2,22 @@
 @import "libs";
 @import "fonts";
 
-.header {
+.header{
 
 }
 
 .header__slider{
 
-  &-item {
+  &-item{
     height: 100vh;
-    background-image: url(../img/header_bg.jpg);
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
 }
+
 
 
 @import "media";
