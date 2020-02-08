@@ -65,6 +65,15 @@ height: 100vh;
   right: 125px;
 }
 
+.slider-dots {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
+  max-width: 920px;
+  width: 100%;
+  color: #fff;
+  }
+
 
 
 @import "media";
