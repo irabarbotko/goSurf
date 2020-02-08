@@ -468,6 +468,11 @@ a {
   top: 50%;
 }
 
+.header {
+  position: relative;
+  height: 100vh;
+}
+
 .header__slider-item {
   height: 100vh;
   background-image: url(../img/header-bg.jpg);
@@ -503,6 +508,19 @@ a {
 
 .slider-item__info-text {
   font-weight: 800;
-  font-size: 40px;
-  line-height: 86px;
+  font-size: 46px;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+
+.slider-arrows {
+  position: absolute;
+  top: 40px;
+  right: 80px;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.slider-arrows__left {
+  right: 125px;
 }
